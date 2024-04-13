@@ -1,0 +1,25 @@
+.loContainer{
+    background-color: rgb(241, 193, 193);
+    background-size: cover;
+    background-position: center;
+    background-image: url("https://www.cloudhalotech.com/images/OG-image.jpg");
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loinputsContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 150px;
+    gap: 30px;
+    background-color: transparent;
+    backdrop-filter: blur(40px);
+    border-radius: 15px;
+    width: 400px;
+    height: 500px;
+}

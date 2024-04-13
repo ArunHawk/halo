@@ -1,0 +1,40 @@
+.todoContainer{
+    display: flex;
+    width: 400px;
+    gap: 15px;
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+    background-color: whitesmoke;
+    border-radius: 5px;
+}
+.mainTodoContainer{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+.cardContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+.todoCard{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+.listComponents{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.buttonComponent{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.deletIcons{
+    cursor: pointer;
+}

@@ -1,0 +1,27 @@
+.details{
+    display: flex;
+    position: relative;
+}
+.left{
+    height: 600px;
+    border-radius: 5px;
+    background-image: linear-gradient(to right, rgba(221, 25, 228, 0.582), rgba(19, 94, 206, 0.5));
+    backdrop-filter: blur(20px);
+}
+.right{
+    flex: 8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.mainContainer{
+  background-image: linear-gradient(to right, rgba(255, 153, 204, 0.63), rgba(255, 204, 255, 0.8));
+}
+.hederContainer{
+    display: flex;
+    margin-bottom: 10px;
+    align-items: center;
+    top: 0;
+    z-index: 999;
+    position: sticky;
+}
