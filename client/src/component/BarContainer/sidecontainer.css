@@ -1,0 +1,70 @@
+.top{
+    height: 50px;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    background-size: cover;
+    background-image: url("https://media.licdn.com/dms/image/D563DAQGHZAdC95NQ7w/image-scale_191_1128/0/1711388061986/cloudhalotech_cover?e=2147483647&v=beta&t=m9nYy5Nc75rWWKdl9HKx2NS-6M6zLiPKhLFSKGQ2ac8");
+
+}
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.Menuicons{
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.imgSize{
+    width: 300px;
+    border-radius: 5px;
+    
+}
+hr{
+    border: 0.5px solid rgb(207, 195, 195);
+}
+.center>ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+li{
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    cursor: pointer;
+    gap: 10px;
+    margin: 10px 0px 10px 0px;
+}
+
+.icons{
+    color: #5b32ee;
+}
+.center ul  li:hover{
+    background-color: rgba(255, 153, 204, 0.63);
+}
+.bottom{
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
+.colorOptions{
+    width: 20px;
+    height: 20px;
+    border: 1px solid #7451f8;
+    border-radius: 5px;
+    margin: 5px;
+    cursor: pointer;
+}
+.colorOptions:nth-child(1){
+    background-color: whitesmoke;
+    
+}
+.colorOptions:nth-child(2){
+    background-color: black;
+}
